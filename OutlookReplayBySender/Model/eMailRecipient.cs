@@ -19,6 +19,8 @@ namespace OutlookReplayBySender.Model
                 _emailName = value;
             }
         }
+
+
         public ExitEventHandler TypeChanged;
         public ExitEventHandler SelectionChanged;
         public string Domain { get; set; }
